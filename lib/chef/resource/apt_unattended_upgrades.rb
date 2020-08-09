@@ -25,7 +25,7 @@ class Chef
 
       provides :apt_unattended_upgrades, platform_family: "debian", target_mode: true
 
-      description "Use the **apt_unattended_upgrades** to auto update the security updates, apt packages on debian systems"        
+      description "Use **apt_unattended_upgrades** to auto update the security updates, apt packages on debian systems"        
       
       property :name, String, default: ""
 
